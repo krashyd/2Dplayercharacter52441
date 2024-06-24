@@ -6,7 +6,6 @@ using UnityEngine;
 public class HealthCol : MonoBehaviour
 {
 
-
 void OnTriggerEnter2D(Collider2D other)
 {
    PlayerController controller = other.GetComponent<PlayerController>();
@@ -19,4 +18,8 @@ void OnTriggerEnter2D(Collider2D other)
    }
 }
 }
+
+
+
+
 
